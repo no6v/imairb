@@ -1,3 +1,5 @@
 require "readline"
 
-p Readline.readline
+loop do
+  p Readline.readline
+end
