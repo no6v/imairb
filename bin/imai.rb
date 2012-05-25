@@ -2,5 +2,5 @@
 require "readline"
 
 loop do
-  p eval(Readline.readline("＞＞ ", true) || break)
+  p TOPLEVEL_BINDING.eval(Readline.readline("＞＞ ", true) || break)
 end
