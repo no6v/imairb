@@ -2,5 +2,5 @@
 require "readline"
 
 loop do
-  p Readline.readline("＞＞ ")
+  p Readline.readline("＞＞ ", true)
 end
